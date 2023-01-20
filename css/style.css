@@ -1,7 +1,100 @@
 .attribution {
   font-size: 11px;
   text-align: center;
+  display: none;
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+}
+
+html,
+body {
+  height: 100%;
+}
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+body {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(hsl(273, 75%, 66%), hsl(240, 73%, 65%));
+  font-family: "Kumbh Sans", sans-serif;
+}
+.main-container {
+  background-color: white;
+  max-width: 100%;
+  border-radius: 25px;
+  margin: 0em auto;
+  padding: 9em 1.5em 2.5em 1.5em;
+}
+
+.img-container {
+  padding-top: 10em;
+  margin: -110px auto;
+  width: 70%;
+}
+
+.img-container02 {
+  margin-top: -4.8em;
+  margin-left: 1em;
+}
+
+.faq {
+  text-align: center;
+
+  box-sizing: border-box;
+  font-weight: 700;
+}
+
+button {
+  outline: none;
+  border: none;
+  background-color: white;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1em 0em;
+  border-bottom: 1.5px solid rgba(231, 229, 229, 0.836);
+  width: 100%;
+  font-weight: 400;
+}
+
+button p {
+  padding: 0em 1em;
+}
+.hidden {
+  display: none;
+}
+.answer {
+  text-align: left;
+  padding: 0.8em 0em;
+  border-bottom: 1.5px solid rgba(231, 229, 229, 0.836);
+  width: 90%;
+  font-weight: 400;
 }
